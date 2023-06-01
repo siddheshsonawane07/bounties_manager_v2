@@ -1,0 +1,67 @@
+.form-Container-Y {
+  width: 60vw;
+  margin: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 2rem;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  position: relative;
+  top: 3rem;
+}
+
+h2 {
+  text-align: center;
+  color: #0f0c29;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.cont-form {
+  margin: 0.7rem;
+}
+
+.form-boxex {
+  border-radius: 0.8rem;
+  height: 6.3vh;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.form-boxex::-webkit-input-placeholder {
+  /* color: blue; */
+  font-weight: 600;
+}
+
+.btn-sub {
+  position: relative;
+  top: 1rem;
+  margin-top: 2rem;
+  width: 15vw;
+  height: 7vh;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.7rem;
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btn-sub:hover {
+  transform: translateY(10);
+}

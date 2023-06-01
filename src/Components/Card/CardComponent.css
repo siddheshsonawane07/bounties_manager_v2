@@ -1,0 +1,18 @@
+.CardEx {
+  margin: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 1rem;
+  z-index: 10;
+}
+
+.CardImg {
+  border-radius: 1rem;
+  width: 96%;
+  position: relative;
+  top: 0.5rem;
+  margin: auto;
+}
+
+.CardEx:hover {
+  transform: scale(0.98);
+}

@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Anuphan:wght@700&display=swap%27");
+
+.navbar {
+  /* background: linear-gradient(45deg, #eb5d47, #a933b2, #a4f9ff); */
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-item {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.connect-wallet {
+  font-family: "Anuphan", sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+  background-color: rgb(var(--primary-color));
+  border: 1px solid rgb(var(--primary-color));
+  color: rgb(var(--text-color));
+}
+img.metamask-logo {
+  border-radius: 13px;
+}
+
+.metamask-logo {
+  width: 50px;
+  background-color: rgb(var(--primary-color));
+  color: rgb(var(--text-color));
+}

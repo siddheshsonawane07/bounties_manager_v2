@@ -1,0 +1,13 @@
+* {
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  position: fixed !important;
+  z-index: 111;
+  width: 100%;
+}
+.nav-container {
+  height: 10vh;
+}
