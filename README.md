@@ -1,3 +1,5 @@
+Hackathon Name: GFG Smart India Hackathon
+
 Project Theme: Blockchain
 
 Project: Bounties
