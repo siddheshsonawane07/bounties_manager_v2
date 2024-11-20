@@ -11,10 +11,10 @@ Bounty Aggregator collects and displays information about various bounty program
 
 Tech Stack used: React.js, Solidity, Ether.js, Hardhat, web3modal.
 
-Deployed using GCP AMD instance: http://35.223.252.133/
+Deployed: https://bountiesaggregator.netlify.app/
 
 Steps to create a bounty:
-1. Visit http://35.223.252.133/.
+1. Visit  https://bountiesaggregator.netlify.app/
 2. Sign in with metamask wallet extension. (make sure you have metamask wallet)
 3. Enter bounty title, details & deadline.
 4. Click submit and a metamsk wallet popup will appear.
